@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pixi Animate Electron TypeScript Example</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  </head>
+  <body>
+      <div id="app"></div>
+      <canvas id="stage" width="1280" height="720"></canvas>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./dist/renderer/renderer.js')
+  </script>
+</html>

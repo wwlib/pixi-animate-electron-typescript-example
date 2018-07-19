@@ -1,0 +1,34 @@
+{
+  "name": "pixi-animate-electron-typescript-example",
+  "version": "0.1.0",
+  "main": "./dist/main/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "tsc -v && yarn build && electron ./dist/main/main.js",
+    "restart": "electron ./dist/main/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wwlib/pixi-animate-electron-typescript-example"
+  },
+  "author": "Andrew Rapo",
+  "copyright": "Copyright (c) 2018 Andrew Rapo. All Rights Reserved",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.5",
+    "find-root": "^1.1.0",
+    "pixi-animate": "^1.3.3",
+    "pixi.js": "^4.8.1",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.8.0",
+    "@types/react": "^16.4.6",
+    "@types/react-bootstrap": "^0.32.11",
+    "@types/react-dom": "^16.0.6"
+  }
+}
